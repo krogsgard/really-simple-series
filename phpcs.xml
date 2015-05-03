@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="Really Simple Series">
+	<description>The code standard for Really Simple Series in WordPress.</description>
+	<file>really-simple-series.php</file>
+	<arg name="report" value="full"/>
+	<arg value="sp"/>
+	<rule ref="WordPress">
+		<exclude name="WordPress.VIP" />
+	</rule>
+</ruleset>
